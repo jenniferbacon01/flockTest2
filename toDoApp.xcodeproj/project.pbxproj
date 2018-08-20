@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		FC7288992129F18C00F52C51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7288982129F18C00F52C51 /* AppDelegate.swift */; };
 		FC72889B2129F18C00F52C51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72889A2129F18C00F52C51 /* ViewController.swift */; };
-		FC72889E2129F18C00F52C51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC72889C2129F18C00F52C51 /* Main.storyboard */; };
 		FC7288A02129F18E00F52C51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC72889F2129F18E00F52C51 /* Assets.xcassets */; };
 		FC7288A32129F18E00F52C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7288A12129F18E00F52C51 /* LaunchScreen.storyboard */; };
 		FC7288AE2129F18F00F52C51 /* toDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7288AD2129F18F00F52C51 /* toDoAppTests.swift */; };
 		FC7288B92129F18F00F52C51 /* toDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7288B82129F18F00F52C51 /* toDoAppUITests.swift */; };
+		FC7288C8212A091900F52C51 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7288C7212A091900F52C51 /* RealmSwift.framework */; };
+		FC7288CA212A092D00F52C51 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7288C9212A092D00F52C51 /* Realm.framework */; };
+		FC7288CD212A0C4400F52C51 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7288CC212A0C4400F52C51 /* Constants.swift */; };
+		FC7288D5212A0EF600F52C51 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7288D4212A0EF600F52C51 /* WelcomeViewController.swift */; };
+		FC7288D7212A10C700F52C51 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7288D6212A10C700F52C51 /* File.swift */; };
+		FC7288D9212A110700F52C51 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7288D8212A110700F52C51 /* ItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 		FC7288952129F18C00F52C51 /* toDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7288982129F18C00F52C51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC72889A2129F18C00F52C51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC72889D2129F18C00F52C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC72889F2129F18E00F52C51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC7288A22129F18E00F52C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC7288A42129F18E00F52C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		FC7288B42129F18F00F52C51 /* toDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7288B82129F18F00F52C51 /* toDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoAppUITests.swift; sourceTree = "<group>"; };
 		FC7288BA2129F18F00F52C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7288C7212A091900F52C51 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		FC7288C9212A092D00F52C51 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		FC7288CC212A0C4400F52C51 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FC7288D4212A0EF600F52C51 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FC7288D6212A10C700F52C51 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FC7288D8212A110700F52C51 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7288CA212A092D00F52C51 /* Realm.framework in Frameworks */,
+				FC7288C8212A091900F52C51 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,7 @@
 				FC7288AC2129F18F00F52C51 /* toDoAppTests */,
 				FC7288B72129F18F00F52C51 /* toDoAppUITests */,
 				FC7288962129F18C00F52C51 /* Products */,
+				FC7288C6212A091900F52C51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +110,12 @@
 		FC7288972129F18C00F52C51 /* toDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC7288D8212A110700F52C51 /* ItemsViewController.swift */,
+				FC7288D6212A10C700F52C51 /* File.swift */,
+				FC7288D4212A0EF600F52C51 /* WelcomeViewController.swift */,
 				FC7288982129F18C00F52C51 /* AppDelegate.swift */,
+				FC7288CC212A0C4400F52C51 /* Constants.swift */,
 				FC72889A2129F18C00F52C51 /* ViewController.swift */,
-				FC72889C2129F18C00F52C51 /* Main.storyboard */,
 				FC72889F2129F18E00F52C51 /* Assets.xcassets */,
 				FC7288A12129F18E00F52C51 /* LaunchScreen.storyboard */,
 				FC7288A42129F18E00F52C51 /* Info.plist */,
@@ -125,6 +141,15 @@
 			path = toDoAppUITests;
 			sourceTree = "<group>";
 		};
+		FC7288C6212A091900F52C51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC7288C9212A092D00F52C51 /* Realm.framework */,
+				FC7288C7212A091900F52C51 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +160,7 @@
 				FC7288912129F18C00F52C51 /* Sources */,
 				FC7288922129F18C00F52C51 /* Frameworks */,
 				FC7288932129F18C00F52C51 /* Resources */,
+				FC7288CB212A095500F52C51 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -231,7 +257,6 @@
 			files = (
 				FC7288A32129F18E00F52C51 /* LaunchScreen.storyboard in Resources */,
 				FC7288A02129F18E00F52C51 /* Assets.xcassets in Resources */,
-				FC72889E2129F18C00F52C51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +276,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FC7288CB212A095500F52C51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC7288912129F18C00F52C51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7288D7212A10C700F52C51 /* File.swift in Sources */,
+				FC7288D9212A110700F52C51 /* ItemsViewController.swift in Sources */,
 				FC72889B2129F18C00F52C51 /* ViewController.swift in Sources */,
+				FC7288D5212A0EF600F52C51 /* WelcomeViewController.swift in Sources */,
 				FC7288992129F18C00F52C51 /* AppDelegate.swift in Sources */,
+				FC7288CD212A0C4400F52C51 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC72889C2129F18C00F52C51 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC72889D2129F18C00F52C51 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC7288A12129F18E00F52C51 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,6 +470,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = toDoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +491,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = toDoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
